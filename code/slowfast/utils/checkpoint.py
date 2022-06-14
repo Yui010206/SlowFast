@@ -334,6 +334,7 @@ def load_checkpoint(
                 if k in model_dict and v.size() == model_dict[k].size()
             }
             # Weights that do not have match from the pre-trained model.
+            
             not_load_layers = [
                 k
                 for k in model_dict.keys()
