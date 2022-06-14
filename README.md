@@ -3,7 +3,7 @@
 ```
 conda activate slowfast
 
-cd cd /nobackup/users/bowu/code/STAR_code/slowfast/
+cd /nobackup/users/bowu/code/STAR_code/slowfast/
 
 python tools/run_net.py \
   --cfg configs/Kinetics/MVIT_B_32x3_CONV.yaml \
